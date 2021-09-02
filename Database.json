@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "name": "Wil Macedo",
+    "birthdate": "1630591801",
+    "sick": false,
+    "bus": true,
+    "study": false
+  },
+  {
+    "id": 1,
+    "name": "Denise Quinderé",
+    "birthdate": "1630591801",
+    "sick": true,
+    "bus": false,
+    "study": true
+  },
+  {
+    "id": 2,
+    "name": "Lívia",
+    "birthdate": "1630591801",
+    "sick": false,
+    "bus": false,
+    "study": false
+  },
+  {
+    "id": 3,
+    "name": "João Victor",
+    "birthdate": "1630591801",
+    "sick": false,
+    "bus": true,
+    "study": true
+  }
+]
