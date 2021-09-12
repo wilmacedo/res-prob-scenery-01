@@ -3,7 +3,7 @@
 
 # misc
 .DS_Store
-*.csv
+/src/dist/*.csv
 
 # debug
 npm-debug.log*
