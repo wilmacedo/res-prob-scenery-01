@@ -2,8 +2,8 @@
 
 ## How to generate
 
-First, create `Database.json` with your data. After create and populate file, generate all reports with
+First, check `db` folder to view all files. After populate, generate all reports with
 
 ```
-node app.js
+npm generate
 ```
