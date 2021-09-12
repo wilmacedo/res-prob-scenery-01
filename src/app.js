@@ -21,16 +21,6 @@ const getCitizens = async () => {
   return citizens;
 };
 
-const filterBySingleRule = (primaryDb, secondaryDb) => {
-  const result = primaryDb.filter(citizen => {
-    const filtered = secondaryDb.filter(person => citizen.Nome === person.Nome);
-
-    return filtered.length === 0;
-  });
-
-  return result;
-};
-
 const filter = (type, databases) => {
   const primaryDb = databases[0];
   const secondaryDb = databases[1];
