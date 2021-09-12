@@ -4,6 +4,7 @@
 # misc
 .DS_Store
 /src/dist/*.csv
+!/src/dist
 
 # debug
 npm-debug.log*
