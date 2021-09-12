@@ -3,8 +3,10 @@
 
 # misc
 .DS_Store
+
+# dist
 /src/dist/*.csv
-!/src/dist
+!src/dist/.gitkeep 
 
 # debug
 npm-debug.log*
